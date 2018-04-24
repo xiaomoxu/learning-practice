@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+    <bean id="Student" class="com.home.basic.spring.copy.Student">
+        <property name="name" value="Hover"/>
+        <property name="add" value="China"/>
+    </bean>
+
+    <bean id="StudentService" class="com.home.basic.spring.copy.StudentService">
+        <property ref="Student"/>
+    </bean>
+</beans>

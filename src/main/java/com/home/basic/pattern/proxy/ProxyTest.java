@@ -14,5 +14,6 @@ public class ProxyTest {
         Person personProxy = (Person) stuHandler.bind(zhangsan);
         //代理执行上交班费的方法
         personProxy.giveMoney();
+        personProxy.getMoney();
     }
 }
