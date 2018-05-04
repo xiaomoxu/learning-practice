@@ -6,7 +6,7 @@
     <settings>
         <setting name="cacheEnabled" value="true"/>
         <setting name="lazyLoadingEnabled" value="false"/>
-        <!--setting name="logImpl" value="STDOUT_LOGGING"/--> <!-- 日志 -->
+        <setting name="logImpl" value="STDOUT_LOGGING"/><!-- 日志 -->
     </settings>
 
     <typeAliases>
@@ -19,15 +19,15 @@
             <!-- 配置数据库连接信息 -->
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://192.168.1.150:3306/xxx" />
-                <property name="username" value="xxx" />
-                <property name="password" value="xxx" />
+                <property name="url" value="jdbc:mysql://10.20.116.107:3306/learning" />
+                <property name="username" value="root" />
+                <property name="password" value="Liaobi()7595k" />
             </dataSource>
         </environment>
     </environments>
 
     <mappers>
-        <mapper resource="user-mapper.xml"/>
+        <mapper resource="mybatis/user-mapper.xml"/>
     </mappers>
 
 </configuration>
