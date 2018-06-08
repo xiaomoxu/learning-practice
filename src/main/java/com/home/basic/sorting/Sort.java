@@ -16,6 +16,12 @@ public class Sort {
 
 
     //选择排序
+
+    /**
+     * 思路：第一轮会选举出最小的，第二轮会选出第二个最小的...最后一轮会选出最大的..
+     * 每一轮都选出当前序列中最小的，最后就是一个从小到大的排列序列
+     * @param unsorted
+     */
     public static void SearchSort(int[] unsorted) {
         for (int i = 0; i < unsorted.length - 1; i++) {
             for (int j = i + 1; j < unsorted.length; j++) {
