@@ -15,6 +15,7 @@ public interface UserDao {
 //            @Result(column = "current_price", property = "currentPrice"),
 //            @Result(column = "belong_to", property = "belongTo")
 //    })
+
     @Select("SELECT * FROM user")
     public List<User> getAll();
 }

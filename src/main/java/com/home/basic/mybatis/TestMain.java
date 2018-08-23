@@ -15,7 +15,7 @@ import java.util.List;
 public class TestMain {
 
     public static void main(String[] args) throws IOException {
-        String resouce = "mybatis/conf.xml";
+        String resouce = "com/home/basic/mybatis/config/conf.xml";
         InputStream is = Resources.getResourceAsStream(resouce);
 
         // 构建sqlSession工厂
