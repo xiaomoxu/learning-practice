@@ -1,6 +1,6 @@
 package com.home.basic.concurrent;
 
-public class WaitNofity {
+public class WaitNotify {
 
 //    public boolean pause = true;
 
@@ -32,7 +32,7 @@ public class WaitNofity {
     };
 
     public static void main(String[] args) {
-        WaitNofity wn = new WaitNofity();
+        WaitNotify wn = new WaitNotify();
         wn.waitThread.start();
         try {
             Thread.sleep(3000);
